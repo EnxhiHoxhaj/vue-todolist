@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#container {
+    width: 60%;
+    padding: 20px 50px;
+    margin: 50px auto;
+    background-color: darkslategray;
+    color: white;
+}
+
+.logo {
+    width: 300px;
+    margin: 10px auto 40px;
+}
+
+.logo img {
+    width: 100%;
+}
