@@ -30,6 +30,7 @@
     width: 500px;
     height: 30px;
     margin-right: 10px;
+    padding: 10px;
 }
 
 .add-task button {
@@ -47,7 +48,13 @@
 
 .task-list li{
     list-style: none;
-    padding: 10px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
+}
+
+.barrato {
+    text-decoration: line-through;
+    text-decoration-color: rgb(100, 99, 99);
+    text-decoration-thickness: 2px ;
 }

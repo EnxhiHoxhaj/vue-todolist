@@ -7,12 +7,15 @@ createApp ({
                 "Portare fuori il cane",
                 "Fare la spesa",
                 "Fare il bucato",
-                "Rinnovare l'abonamento Netflix in scadenza"
+                "Rinnovare l'abbonamento Netflix in scadenza"
             ],
-            done : [
-                true,
-                false
-            ]
+
+            done : false
         }
     },
+    methods : {
+        remuveTask (index) {
+         this.text.splice(index, 1);
+        }
+    }
 }).mount("#container")

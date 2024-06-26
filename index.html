@@ -23,9 +23,9 @@
         </div>
         <div class="task-list">
             <ul>
-                <li class="item" v-for="task in text">
-                    <strong>{{task}}</strong>
-                    <i class="fa-solid fa-xmark"></i>
+                <li class="item"  v-for="(task, index) in text" :key="index">
+                    <strong :class = "{'barrato' : done} "   >{{task}}</strong>
+                    <i class="fa-solid fa-xmark" @click = "remuveTask(index)"></i>
                 </li>
             </ul>
         </div>
