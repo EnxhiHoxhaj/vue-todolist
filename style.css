@@ -20,3 +20,34 @@
 .logo img {
     width: 100%;
 }
+
+.add-task {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.add-task input {
+    width: 500px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.add-task button {
+    width: 150px;
+    height: 30px;
+}
+
+.task-list {
+    background-color: rgb(128, 128, 128, 0.7);
+    width: 660px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    border: solid 0.1px gray;  
+}
+
+.task-list li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
